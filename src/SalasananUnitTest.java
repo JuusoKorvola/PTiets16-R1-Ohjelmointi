@@ -4,12 +4,13 @@ public class SalasananUnitTest {
 	public static void main(String[] args) {
 		ArrayList<String> lista = new ArrayList<String>();
 		lista.add("kakka");
-		lista.add("kakAkaääö1ä2ö12");
-		lista.add("kakAkaKAKKA äöäö12 11");
+		lista.add("kakAkaÃ¤Ã¤Ã¶1Ã¤2Ã¶12");
+		lista.add("uusikokeilu toimiiko?!");
+		lista.add("kakAkaKAKKA Ã¤Ã¶Ã¤Ã¶12 11");
 		lista.add("kakAkaAKKA11asa");
-		lista.add("kakkaKAKKAäöäö111!");
-		lista.add("asdskdslakdsakdlösakösakd88lsakdöskadäadöksädaslkdäöasköäasköadsädkdlkskaldsakaksd");
-		lista.add("kakkaKAKKAäöäöäöäöäöä1111");
+		lista.add("kakkaKAKKAÃ¤Ã¶Ã¤Ã¶111!");
+		lista.add("asdskdslakdsakdlÃ¶sakÃ¶sakd88lsakdÃ¶skadÃ¤adÃ¶ksÃ¤daslkdÃ¤Ã¶askÃ¶Ã¤askÃ¶adsÃ¤dkdlkskaldsakaksd");
+		lista.add("kakkaKAKKAÃ¤Ã¶Ã¤Ã¶Ã¤Ã¶Ã¤Ã¶Ã¤Ã¶Ã¤1111");
 		for (String salasana : lista) {
 			System.out.println(SalasananVahvuus.salasananMuuttujat(salasana));
 			
